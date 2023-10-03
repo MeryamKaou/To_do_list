@@ -11,7 +11,8 @@ body {
 }
 
 h1 {
-    color: #d8761a;;
+    color: #d8761a;
+    ;
 }
 
 input[type="text"] {
@@ -26,7 +27,7 @@ button {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius:  20px;
+    border-radius: 20px;
 }
 
 ul {
