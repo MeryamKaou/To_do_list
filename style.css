@@ -1,28 +1,32 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #333;
 }
 
 .todo-container {
     max-width: 400px;
     margin: 0 auto;
+    margin-top: 30vh;
 }
 
 h1 {
-    color: #333;
+    color: #d8761a;;
 }
 
 input[type="text"] {
     width: 70%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #d8761a;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius:  20px;
 }
 
 ul {
@@ -37,6 +41,7 @@ li {
     border: 1px solid #ddd;
     margin: 5px 0;
     padding: 5px 10px;
+    color: white;
 }
 
 li .delete-button {
